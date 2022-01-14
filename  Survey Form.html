@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<div class="main">
+
+    <head>
+        <link href="Survey Form style.css" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap" rel="stylesheet">
+    </head>
+
+    <h1 id="title">Macbook Air 2020 M1 Survey</h1>
+    <p id="description">Thank you for providing feedback about your Macbook experience.</p>
+
+    <div class="main-content">
+        <div class="form-content">
+            <form id="survey-form">
+                <label id="name-label">Name</label>
+                <input id="name" required placeholder="Enter your name">
+
+                <label id="email-label">Email</label>
+                <input id="email" type="email" required placeholder="Enter your email">
+
+                <label id="number-label">Rate from 1 to 10</label>
+                <input id="number" type="number" min="1" max="10" required placeholder="Enter a number">
+
+                <label id="dropdown">Which option best describes you?</label>
+                <select id="dropdown">
+                    <option value="select">Select</option>
+                    <option value="student">Part-time Student</option>
+                    <option value="student">Full-time Student</option>
+                    <option value="job">Part-time Job</option>
+                    <option value="job">Full-time Job</option>
+                </select>
+
+                <fieldset>
+                    <legend>Would you recommend it to a friend?</legend>
+                    <input type="radio" name="recommend" id="definitely" value="definitely"><label for="definitely">Definitely</label><br>
+                    <input type="radio" name="recommend" id="maybe" value="maybe"><label for="maybe">Maybe</label><br>
+                    <input type="radio" name="recommend" id="no" value="no"><label for="no">No</label><br>
+                </fieldset>
+
+                <fieldset>
+                    <legend>What would you like to see improved?</legend>
+                    <input type="checkbox" id="improved battery life" name="improved battery life" value="improved battery life">
+                    <label for="improved battery life">Improved Battery Life</label><br>
+
+                    <input type="checkbox" id="USB port" name="USB port" value="USB port">
+                    <label for="USB port">Add a USB port</label><br>
+
+                    <input type="checkbox" id="bigger screen" name="bigger screen" value="bigger screen">
+                    <label for="bigger screen">Bigger Screen</label><br>
+                </fieldset>
+
+                <label for="comment">Any comments or suggestions</label>
+                <textarea rows="4" cols="50" id="comment>Enter your comment here..."></textarea>
+
+                <button type="submit" id="submit">Submit</button>
+
+
+            </form>
+        </div>
+    </div>
+</div>
+<footer>
+    <a href="#">Coded by Mary Williams</a>
+</footer>
+<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+
+</html>
