@@ -1,47 +1,57 @@
 body {
-    background-color: pink;
-    align-items: center;
-    font-family: Patrick Hand;
-}
-
-h1 {
-    color: hotpink;
-    text-align: center;
-}
-
-p {
-    margin-top: 25px;
-    text-align: center;
-}
-
-#number {
-    width: 120px;
-}
-
-fieldset:first-child {
-    margin-top: 25px;
-}
-
-fieldset:last-child {
-    margin-bottom: 25px;
-}
-
-textarea {
-    margin-top: 25px;
-    vertical-align: top;
-    align-items: flex-end;
-}
-
-footer {
-    text-align: center;
-    margin-top: 50px;
-}
-
-button {
-    align-items: center;
-    justify-content: center;
-    margin: auto;
-    display: flex;
-    margin-top: 25px;
-    background-color: hotpink;
-}
+         background-color: pink;
+         align-items: center;
+         font-family: Patrick Hand;
+         font-size: 20px;
+     }
+     
+     h1 {
+         color: hotpink;
+         text-align: center;
+     }
+     
+     p {
+         margin-top: 25px;
+         text-align: center;
+     }
+     
+     #number {
+         width: 120px;
+     }
+     
+     legend {
+         margin-top: 50px;
+     }
+     
+     fieldset:first-child {
+         margin-top: 25px;
+     }
+     
+     fieldset:last-child {
+         margin-bottom: 25px;
+     }
+     
+     #suggestions {
+         text-align: top;
+         align-items: center;
+     }
+     
+     #comment {
+         vertical-align: top;
+         align-items: left;
+         margin-top: 100px;
+     }
+     
+     footer {
+         text-align: center;
+         margin-top: 50px;
+     }
+     
+     button {
+         align-items: center;
+         justify-content: center;
+         margin: auto;
+         display: flex;
+         margin-top: 25px;
+         background-color: hotpink;
+     }
